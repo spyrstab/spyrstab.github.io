@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ΒΑΘΜΟΛΟΓΙΑ </title>
+
+
+
+</head>
+<body>
+
+<h1> <b> ΒΑΘΜΟΛΟΓΙΑ </b> </h1>
+		<hr/>
+<div class="menu"
+<a href="ΑΡΧΙΚΗ.html"> ΑΡΧΙΚΗ </a> 
+<a href="ΑΓΩΝΕΣ.html"> ΑΓΩΝΕΣ </a> 
+<a href="ΒΑΘΜΟΛΟΓΙΑ.html"> ΒΑΘΜΟΛΟΓΙΑ </a>
+<a href="ΕΠΙΚΟΙΝΩΝΙΑ.html"> ΕΠΙΚΟΙΝΩΝΙΑ </a>
+<hr/>
+
+</div>
+<script src="/index.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body  {
+  background-image: url("Tennis.png");
+  background-color: #cccccc;
+}
+</style>
+
+
+
+	<div class= "table1">
+       
+    <table id="t1" class="t01" align="center">
+      	
+    <th onclick="sortTable(0)">ΣΕΖΟΝ</th>
+    <th onclick="sortTable(1)">ΚΑΤΑΞΗ</th>
+    <th onclick="sortTable(2)">ΤΙΤΛΟΙ</th>
+    <th onclick="sortTable(3)">ΟΛΟΙ ΟΙ ΑΓΩΝΕΣ</th>
+	<th onclick="sortTable(4)">ΝΙΚΕΣ</th>
+	<th onclick="sortTable(5)">ΗΤΤΕΣ</th>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td>1280</td>
+    <td>0</td>
+    <td>1 : 1</td>
+	 <td>31</td>
+	  <td>11</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>576</td>
+    <td>6</td>
+    <td>1 : 2</td>
+	<td>72</td>
+	  <td>50</td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>210</td>
+    <td>3</td>
+    <td>42 : 15</td>
+	<td>11</td>
+	  <td>5</td>
+	
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td>91</td>
+    <td>1</td>
+    <td>52 : 30</td>
+	<td>9</td>
+	  <td>5</td>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>15</td>
+    <td>2</td>
+    <td>56 : 30</td>
+	<td>7</td>
+	  <td>5</td>
+  </tr>
+
+  <tr>
+    <td>2019</td>
+    <td>6</td>
+    <td>3</td>
+    <td>38 : 19</td>
+	<td>7</td>
+	  <td>1</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>6</td>
+    <td>1</td>
+    <td>18 : 11</td>
+	<td>10</td>
+	  <td>2</td>
+  </tr>  
+
+  <tr>
+    <td>2021</td>
+    <td>5</td>
+    <td>5</td>
+    <td>17 : 90</td>
+	<td>7</td>
+	  <td>14</td>
+  </tr>
+  </tr>
+ 
+
+
+</table>
+</div>
+<div>
+<class="fr">
+        <input type="text" id="newCellOneText" placeholder="ΣΕΖΟΝ"/>
+        <input type="text" id="newCellOneText" placeholder="ΚΑΤΑΞΗ"/>
+        <input type="text" id="newCellTwoText" placeholder="ΤΙΤΛΟΙ"/>
+        <input type="text" id="newCellThreeText" placeholder="ΟΛΟΙ ΟΙ ΑΓΩΝΕΣ"/>
+        <input type="text" id="newCellFourText" placeholder="ΝΙΚΕΣ"/>
+        <input type="text" id="newCellFourText" placeholder="ΗΤΤΕΣ"/>
+       
+         <button type="reset" id="btn_reset" style="display: none;"></button>
+         <button type="button" id="btn_submit" onclick="addrow()">Πρόσθεσε νέα γραμμή</button>
+        </div>
+        
+
+
+
+    <span id="ΤΙΤΛΟΙ"
+	      ></span>
+		 <span id="ΝΙΚΕΣ"
+		  ></span>
+		  <span id="ΗΤΤΕΣ"
+		  ></span>
+		    <span id="ΟΛΟΙ ΟΙ ΑΓΩΝΕΣ"
+		  ></span>
+		  
+		  
+      
+
+
+
+
+</body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> ΣΤΑΤΙΣΤΙΚΑ ΣΤΟΙΧΕΙΑ </title>
+
+
+
+</head>
+<body>
+
+<h1> <b> ΣΤΑΤΙΣΤΙΚΑ ΣΤΟΙΧΕΙΑ </b> </h1>
+		<hr/>
+
+<a href="ΑΡΧΙΚΗ.html"> ΑΡΧΙΚΗ </a> 
+<a href="ΑΓΩΝΕΣ.html"> ΑΓΩΝΕΣ </a> 
+<a href="ΒΑΘΜΟΛΟΓΙΑ.html"> ΒΑΘΜΟΛΟΓΙΑ </a>
+<a href="ΕΠΙΚΟΙΝΩΝΙΑ.html"> ΕΠΙΚΟΙΝΩΝΙΑ </a>
+<hr/>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body  {
+  background-image: url("Tennis.png");
+  background-color: #cccccc;
+}
+</style>
+<input type="checkbox" name="ΤΟΥΡΝΟΥΑ" checked="checked" /> "ΤΟΥΡΝΟΥΑ"
+<input type="checkbox" name="ΗΜΕΡΟΜΙΝΙΑ" />"ΗΜΕΡΟΜΙΝΙΑ"
+<input type="checkbox" name="ΑΝΤΙΠΑΛΟΙ" checked="checked" /> "ΑΝΤΙΠΑΛΟΙ"
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+$("input:checkbox:not(:checked)").each(function() {
+    var column = "table ." + $(this).attr("name");
+    $(column).hide();
+});
+
+$("input:checkbox").click(function(){
+    var column = "table ." + $(this).attr("name");
+    $(column).toggle();
+});
+function filterTable() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("t2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search for names.." title="Type in a name">
+<div class= "table2">
+       
+  <table id="t2" class="t02" align="left">
+<tr>
+    <th class="ΤΟΥΡΝΟΥΑ"> ΔΙΟΡΓΑΝΩΣΗ </th>
+    <th class="ΗΜΕΡΟΜΙΝΙΑ"> ΕΤΟΣ</th>
+    <th class="ΑΝΤΙΠΑΛΟΙ">ΑΝΤΙΠΑΛΟΣ</th>
+
+  </tr>
+  <tr>
+    <td class="ΤΟΥΡΝΟΥΑ">ΒERCELONA OPEN</td>
+    <td class="ΗΜΕΡΟΜΙΝΙΑ">01/03/18</td>
+    <td class="ΑΝΤΙΠΑΛΟΙ">Rafael Nadal </td>
+    
+  </tr>
+  <tr>
+    <td class="ΤΟΥΡΝΟΥΑ">OPEN 19</td>
+    <td class="ΗΜΕΡΟΜΙΝΙΑ">03/06/2019</td>
+    <td class="ΑΝΤΙΠΑΛΟΙ">Mikhail Kukushkin</td>
+   
+  </tr>
+  <tr>
+    <td class="ΤΟΥΡΝΟΥΑ">MADRID OPEN</td>
+    <td class="ΗΜΕΡΟΜΙΝΙΑ">01/01/20</td>
+    <td class="ΑΝΤΙΠΑΛΟΙ">Novak Djokovic</td>
+    
+  </tr>
+  <tr>
+    <td class="ΤΟΥΡΝΟΥΑ">CHINA OPEN</td>
+    <td class="ΗΜΕΡΟΜΙΝΙΑ">06/10/19</td>
+    <td class="ΑΝΤΙΠΑΛΟΙ">Felix Auger-Aliassime</td>
+  
+  </tr>
+  
+   <tr>
+    <td class="ΤΟΥΡΝΟΥΑ">CHINA OPEN</td>
+    <td class="ΗΜΕΡΟΜΙΝΙΑ">06/09/18</td>
+    <td class="ΑΝΤΙΠΑΛΟΙ">Novak Djokovic</td>
+  
+  </tr>
+</div>
+
+ 
+
+
+</table>
+
+
+
+
+</body>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tennis player">
+  <meta name="keywords" content="web, page, html,css, tennnis">
+  <meta name="author" content="Spiros Stamplolidis">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<script src="/index.js"></script>
+
+
+
+<body>
+<h2>WELCOME</h2>
+
+<p>PLEASE GIVE  NAME OF THE PLAYER </p>
+<form action="ΑΡΧΙΚΗ.html" align="center" >
+<input type="text" name="name" placeholder="Enter name..."/>
+<input type="text" name="surname" placeholder="Enter surname..."/>
+<input type="submit" value="click"  onclick="passvalues();"/>
+
+</body>
+ 
+<style>
+body  {
+  background-image: url("Tennis.png");
+  background-color: #cccccc;
+
+  
+}
+p{
+  text-align:center;
+}
+h2{
+color: green;
+font-family: Arial;
+font-size:50px;
+text-align:center;
+}
+
+</style>
+
+
+
+<script>
+function myFunction() {
+  var firstmane=document.getElementById("txt").value;
+  localStorage.setItem("textvalue",firstname);
+  return false;
+  } 
+  //serviceworker
+if("serviceWorker" in navigator)
+{
+    navigator.serviceWorker.register("sw.js").then(register=>
+    {
+    console.log("SW Registerd!");
+    console.log(registration);
+
+}).catch(error => {
+    console.log("SW Registerd Faild!");
+    console.log(error);
+});
+}
+</script>
+
+
+
+
+</form>
+
+</html>
+
+

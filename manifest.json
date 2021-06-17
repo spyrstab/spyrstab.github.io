@@ -1,0 +1,20 @@
+{
+    "name": "A Tennis Phenomenon",
+    "short_name":"STEFANOS TSITSIPAS",
+    "start_url": "/login.html",
+    "background_color":"#99FFCC",
+    "theme_color": "#99FFCC",
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "icons":[
+        {
+            "src": "/icon.png",
+            "type":"image/png",
+            "sizes": "512x512"
+
+        }
+
+    
+    ]
+
+}

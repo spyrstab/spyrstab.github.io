@@ -1,0 +1,175 @@
+
+h2{
+color: green;
+font-family: Arial;
+font-size:20px;
+text-align:center;
+}
+
+h3{
+color: black;
+font-family: Arial;
+font-size:20px;
+}
+
+
+p{
+color:black;
+font-family: Arial;
+font-size:20px;
+margin: 100px 200px;
+
+}
+
+
+.container{
+	background-color:#FFE9D2;
+	
+}
+
+.menu{
+	
+	text-align: left;
+}
+
+table.center{
+	
+  margin-left: auto;
+  margin-right: auto;
+}
+  table.t1,th,td {
+  margin-left: 10px;
+  	
+  border: 1px solid black;
+  border-collapse: collapse;
+ font-family: Arial;
+ text-align: left;
+ 
+}
+td , th {padding :10px;
+}
+tr :hover{background:black;
+	color :white;
+
+}
+tr:first-child {background:white;}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+  .menu {
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+
+
+
+
+table.t1,th,td {
+    background-color: blue;
+	 margin: auto; 
+     width: auto;
+  }
+ 
+h1,h2,h3{
+  text-align: center;
+  margin: 10px 10px;
+   }
+}
+@media screen and (max-width:350px) {
+  .menu {
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+   href {
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+
+  p {
+
+font-size:20px;
+margin: 10px 10px;
+}
+
+table.t2,td{
+  max-width: 50px;
+min-width: 40px;
+font-size:12px;
+}
+table.t1,th,td {
+    
+	 margin: auto; 
+     width: auto;
+  }
+ 
+h1,h2,h3 {
+  text-align: center;
+  margin: 10px 10px;
+   }
+}
+@media screen and (max-width:1000px) {
+  .menu {
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+  @media screen and (max-width:350px) {
+  .center .from{
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+  @media screen and (max-width:1000px) {
+  .center .from {
+  
+     text-align: center;
+     margin: auto; 
+     width: auto;
+  }
+
+  p {
+
+font-size:20px;
+margin: 10px 10px;
+}
+ 
+t2,td,th{
+
+ 
+margin: auto; 
+     width: auto;
+font-size:20px;
+}
+table.t1,th,td {
+ 
+	 margin: auto; 
+     width: auto;
+  }
+ 
+h1,h2,h3 {
+  text-align: center;
+  margin: 10px 10px;
+
+    }
+    .fr{
+      margin:10px; 
+      width: 10px;
+    }
+    
+       }     
+          }
+              }
