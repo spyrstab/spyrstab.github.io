@@ -2,8 +2,7 @@ self.addEventListener("install", e=> {
     e.waitUntil(
         chaces.open("static").then(cache=>
             {
-                return cache.addAll(["./index.html","./AΓΩΝΕΣ.html","./ΑΡΧΙΚΗ.html","./ΒΑΘΜΟΛΟΓΙΑ.html","./ΕΠΙΚΟΙΝΩΝΙΑ.html",
-                ,"/Tennis.png","/tsitsipas.jpg","./style.css","./icon.png"])
+                return cache.addAll(["./index.html","./Tennis.png","./tsitsipas.jpg","./style.css","./icon.png"])
             })
     );
         });
