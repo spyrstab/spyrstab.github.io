@@ -68,7 +68,12 @@ body, html {
      margin: auto; 
      width: auto;
   }
+  p {
 
+    text-align: center;
+    margin: auto; 
+    width: auto;
+}
 
 
 
@@ -119,6 +124,11 @@ h1,h2,h3 {
   text-align: center;
   margin: 10px 10px;
    }
+   .center .from{
+  
+    text-align: center;
+    margin: auto; 
+    width: auto;
 }
 @media screen and (max-width:1000px) {
   .menu {
@@ -127,14 +137,8 @@ h1,h2,h3 {
      margin: auto; 
      width: auto;
   }
-  @media screen and (max-width:350px) {
-  .center .from{
+ 
   
-     text-align: center;
-     margin: auto; 
-     width: auto;
-  }
-  @media screen and (max-width:1000px) {
   .center .from {
   
      text-align: center;
@@ -144,9 +148,8 @@ h1,h2,h3 {
 
   p {
 
-    text-align: center;
-    margin: auto; 
-    width: auto;
+font-size:20px;
+margin: 10px 10px;
 }
  
 t2,td,th{
