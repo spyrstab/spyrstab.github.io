@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> A Tennis Phenomenon </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tennis player">
+  <meta name="keywords" content="web, page, html,css, tennnis">
+  <meta name="author" content="Spiros Stamplolidis">
+  <link rel="manifest" href="/manifest.json">
+ 
+  <link rel="icon" href="icon.png" type="image/x-icon">
+ 
+</head>
+<script src="/index.js"></script>
+
+
+
+<body>
+<h2>WELCOME</h2>
+
+<p>PLEASE GIVE  NAME OF THE PLAYER </p>
+<form action="ΑΡΧΙΚΗ.html" align="center" >
+<input type="text" name="name" placeholder="Enter name..."/>
+<input type="text" name="surname" placeholder="Enter surname..."/>
+<input type="submit" value="click"  onclick="passvalues();"/>
+
+</body>
+ 
+<style>
+body  {
+  height: 100%;
+        margin: 0;
+        font-family: "Open sans",Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Tennis.png");
+        background-position: center;
+        background-repeat: repeat; 
+        background-size: cover;
+        position: static;
+
+  
+}
+p{
+  text-align:center;
+}
+h2{
+color: green;
+font-family: Arial;
+font-size:50px;
+text-align:center;
+}
+
+</style>
+
+
+
+<script>
+
+function myFunction() {
+  var firstmane=document.getElementById("txt").value;
+  localStorage.setItem("textvalue",firstname);
+  return false;
+  } 
+  //serviceworker
+if("serviceWorker" in navigator)
+{
+    navigator.serviceWorker.register("sw.js").then(register=>
+    {
+    console.log("SW Registerd!");
+    console.log(registration);
+
+}).catch(error => {
+    console.log("SW Registerd Faild!");
+    console.log(error);
+});
+}
+</script>
+
+
+
+
+</form>
+
+</html>
+
+
