@@ -99,8 +99,9 @@ h1,h2,h3{
 
   p {
 
-font-size:20px;
-margin: 10px 10px;
+    text-align: center;
+    margin: auto; 
+    width: auto;
 }
 
 table.t2,td{
@@ -143,8 +144,9 @@ h1,h2,h3 {
 
   p {
 
-font-size:20px;
-margin: 10px 10px;
+    text-align: center;
+    margin: auto; 
+    width: auto;
 }
  
 t2,td,th{
