@@ -1,7 +1,7 @@
 {
     "name": "A Tennis Phenomenon",
     "short_name":"STEFANOS TSITSIPAS",
-    "start_url": "/login.html",
+    "start_url": "/index.html",
     "background_color":"#99FFCC",
     "theme_color": "#99FFCC",
     "orientation": "portrait-primary",
